@@ -5,6 +5,8 @@ import Banners from "./banner-components/banner";
 import CartPage from "./cart-components/cartPage";
 import OrderPage from "./order-components/orderPage";
 import HomeSlider from "./homepage-components/homeSlider";
+import ProductPage from "./product-component/productPage";
+import ProductPopup from "./product-component/productPopup";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <CartPage />
       <OrderPage />
       <HomeSlider />
+      <ProductPage />
+      <ProductPopup />
     </>
   );
 };
